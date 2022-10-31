@@ -1,0 +1,24 @@
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    border-top: solid #facf0f 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+
+    &__text {
+        padding-bottom: 1rem;
+        font-size: large;
+    }
+    
+}

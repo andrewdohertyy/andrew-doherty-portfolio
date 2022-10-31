@@ -1,0 +1,43 @@
+.projectcard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ margin: 2rem;
+
+  &__image {
+    height: auto;
+    width: 30%;
+    margin-right: 2rem;
+  }
+  &__info {
+    text-align: left;
+    font-size: large;
+  }
+  &__title {
+    font-size: x-large;
+  }
+  &__group {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .projectcard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__group {
+            align-items: center;
+        }
+        &__image {
+            align-items: center;
+            justify-content: center !important;
+            height: auto;
+            width: 50%;
+            margin-right: 0;
+        }
+    }
+}

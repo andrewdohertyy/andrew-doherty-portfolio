@@ -1,0 +1,18 @@
+@use "../../styles/variables" as *;
+.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 90vh;
+   width: 100vw;
+
+   &__title {
+      font-size: 3.5rem;
+   }
+   &__info {
+      font-size: 2rem;
+   }
+
+}

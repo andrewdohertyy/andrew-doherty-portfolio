@@ -1,0 +1,32 @@
+.aboutcontainer {
+    margin-bottom: 8rem ;
+  &__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__image {
+    
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #facf0f;
+  }
+  &__skills {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 2rem;
+  }
+  &__skills--buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  &__skills--title {
+    margin-bottom: 2rem;
+  }
+}

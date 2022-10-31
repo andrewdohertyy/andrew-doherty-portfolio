@@ -1,4 +1,5 @@
 import './App.scss';
+import React from 'react';
 import Home from './containers/Home/Home';
 
 function App() {

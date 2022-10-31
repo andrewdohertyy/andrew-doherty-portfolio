@@ -25,8 +25,10 @@ const projectsJSX = (projects) => {
 
   return (
     <div className='projectContainer'>
-        <h1 className='projectContainer__title'>ProjectContainer</h1>
-        <h2 className='projectContainer__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, sequi id exercitationem ipsum, voluptatem quasi quibusdam pariatur facere ipsa quos, provident consequuntur perferendis accusantium aspernatur cumque nemo aliquid doloribus praesentium.</h2>
+        <h1 className='projectContainer__title'>PROJECTS</h1>
+        <h3 className='projectContainer__text'>Below is a list of my projects to date. They will all come with a link to my repos with the code. As well as this I also completed a real-life MVP for a development project, delivered
+as a Scrum team to a client who will use it for future
+development. It included a React front-end and Spring back-end integration, including authentication and CI deployment to GCP.</h3>
         <div className='projectContainer__items'>
             {projectsJSX(projects)}
         </div>

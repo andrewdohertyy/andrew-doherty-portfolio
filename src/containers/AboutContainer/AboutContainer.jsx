@@ -37,9 +37,9 @@ const skillsJSX = (skills) => {
 const AboutContainer = () => {
   return (
     <div className="aboutcontainer">
-        <img className="aboutcontainer__image" src={me} alt="" />
+        <img  id='about' className="aboutcontainer__image" src={me} alt="" />
       <About title="ABOUT ME" />
-      <div className="aboutcontainer__flex">
+      <div  className="aboutcontainer__flex">
         <AboutMe />
         <div className="aboutcontainer__skills">
           <h2 className="aboutcontainer__skills--title">SKILLS</h2>

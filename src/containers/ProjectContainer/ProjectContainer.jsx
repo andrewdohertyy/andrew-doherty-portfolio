@@ -16,6 +16,7 @@ const projectsJSX = (projects) => {
                 image={project.image}
                 link={project.link}
                 info={project.info}
+                live={project.live}
                 />
             </div>
         );
@@ -24,7 +25,7 @@ const projectsJSX = (projects) => {
 
 
   return (
-    <div className='projectContainer'>
+    <div className='projectContainer' id='projects'>
         <h1 className='projectContainer__title'>PROJECTS</h1>
         <h3 className='projectContainer__text'>Below is a list of my projects to date. They will all come with a link to my repos with the code. As well as this I also completed a real-life MVP for a development project, delivered
 as a Scrum team to a client who will use it for future

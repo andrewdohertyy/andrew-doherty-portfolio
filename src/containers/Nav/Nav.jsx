@@ -4,7 +4,7 @@ import "./Nav.scss"
 const Nav = () => {
     return (
 
-        <div className="nav">
+        <div className="nav" id='home'>
           <section class="top-nav">
             
               <nav className="nav__title--container">
@@ -17,10 +17,9 @@ const Nav = () => {
               <div class="menu-button"></div>
             </label>
             <ul class="menu" >
-              <option>Home</option>
-              <option>About</option>
-              <option>Projects</option>
-              <option>Contact</option>           
+              <a href='#about'>About</a>
+              <a href='#projects'>Projects</a>
+              <a href='#contact'>Contact</a>           
             </ul>
           </section>
         </div>

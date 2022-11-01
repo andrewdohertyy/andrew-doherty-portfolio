@@ -36,7 +36,7 @@ export const projects = [
   },
   {
     "title": "Carsology Full-Stack",
-    "info": "my final project. It shown all of my previous knowledge placed into one project. I am extremely proud of this project, I put in a lot of effort! It has a frontend & backend repo. Images from the site are shown on the README",
+    "info": "My final project. It shown all of my previous knowledge placed into one project. I am extremely proud of this project, I put in a lot of effort! It has a frontend & backend repo. Images from the site are shown on the README",
     "link": "https://github.com/andrewdohertyy?tab=repositories",
     "live": "https://github.com/andrewdohertyy?tab=repositories",
     "image": "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"

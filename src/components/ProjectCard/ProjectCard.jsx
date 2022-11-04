@@ -5,7 +5,17 @@ import "./ProjectCard.scss"
 
 const ProjectCard = ({title, image, link, live, info}) => {
 
-    console.log(image);
+  let buttonTitle; 
+  let codeTitle = 'Code'
+
+  if (link === live ) {
+    buttonTitle = 'Repo'
+  } else if (link === "https://github.com/andrewdohertyy/_carsology-frontend") {
+    buttonTitle = 'Backend'
+    codeTitle = "Frontend"
+  } else {
+    buttonTitle = 'Live'
+  }
 
   return (
     <div className='projectcard'>
@@ -14,8 +24,8 @@ const ProjectCard = ({title, image, link, live, info}) => {
         <h3 className='projectcard__title'>{title}</h3>
         <p className='projectcard__info'>{info}</p>
         <div className='buttons'>
-        <Buttons title={"Code"} link={link}/>
-        <Buttons title={"Live"} link={live}/>
+        <Buttons title={codeTitle} link={link}/>
+        <Buttons title={buttonTitle} link={live}/>
         </div>
         </div>
     </div>

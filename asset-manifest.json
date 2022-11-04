@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/final-react-portfolio/static/css/main.ae90c673.css",
-    "main.js": "/final-react-portfolio/static/js/main.cff7925e.js",
-    "static/js/787.128fc6e9.chunk.js": "/final-react-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/me.jpg": "/final-react-portfolio/static/media/me.5747456dc3e4f334145a.jpg",
-    "index.html": "/final-react-portfolio/index.html",
-    "main.ae90c673.css.map": "/final-react-portfolio/static/css/main.ae90c673.css.map",
-    "main.cff7925e.js.map": "/final-react-portfolio/static/js/main.cff7925e.js.map",
-    "787.128fc6e9.chunk.js.map": "/final-react-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/andrew-doherty-portfolio/static/css/main.2818b823.css",
+    "main.js": "/andrew-doherty-portfolio/static/js/main.f76f1c0d.js",
+    "static/js/787.128fc6e9.chunk.js": "/andrew-doherty-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/me.jpg": "/andrew-doherty-portfolio/static/media/me.5747456dc3e4f334145a.jpg",
+    "index.html": "/andrew-doherty-portfolio/index.html",
+    "main.2818b823.css.map": "/andrew-doherty-portfolio/static/css/main.2818b823.css.map",
+    "main.f76f1c0d.js.map": "/andrew-doherty-portfolio/static/js/main.f76f1c0d.js.map",
+    "787.128fc6e9.chunk.js.map": "/andrew-doherty-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae90c673.css",
-    "static/js/main.cff7925e.js"
+    "static/css/main.2818b823.css",
+    "static/js/main.f76f1c0d.js"
   ]
 }
